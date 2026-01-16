@@ -23,8 +23,15 @@ Proyecto backend sin interfaz gráfica, probado mediante Postman.
 2. Configurar la base de datos en `application.properties`
 3. Ejecutar la aplicación
 
+## Endpoints principales
+- POST /employees/create
+- POST /check-in/{dni}
+- POST /check-out/{dni}
+- GET /reports/monthly?month=10&year=2025
+
 ## Autor
 Romina Baglivo
+Backend Developer Junior
 
 ## Ejemplos de uso (Postman)
 
