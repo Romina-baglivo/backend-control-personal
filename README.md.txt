@@ -1,7 +1,9 @@
 # Backend – Control de Ingreso y Egreso de Personal
 
 ## Descripción
-API REST desarrollada en Java para registrar y gestionar el ingreso y egreso de empleados.
+API REST desarrollada en Java para registrar y gestionar el ingreso y egreso de empleados. 
+Proyecto backend sin interfaz gráfica, probado mediante Postman.
+
 
 ## Tecnologías utilizadas
 - Java 17
@@ -23,3 +25,17 @@ API REST desarrollada en Java para registrar y gestionar el ingreso y egreso de 
 
 ## Autor
 Romina Baglivo
+
+## Ejemplos de uso (Postman)
+
+### Crear empleado
+![Crear empleado](docs/postman/create-empleado.png)
+
+### Registrar ingreso
+![Ingreso](docs/postman/ingreso.png)
+
+### Registrar egreso
+![Egreso](docs/postman/egreso.png)
+
+### Consultar registros
+![Registros](docs/postman/registros.png)
