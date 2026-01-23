@@ -7,3 +7,4 @@ public class EmployeeNotFoundException extends RuntimeException {
         super("Empleado con DNI " + dni + " no encontrado.");
     }
 }
+
